@@ -1,0 +1,184 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base style */
+
+hr {
+    background-color: #E3DDD7;
+    height: 1px;
+    width: 656px;
+    border-width: 0;
+}
+
+
+.app {
+    background-color: #F3E5D7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Card */
+
+.app__card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 736px;
+    padding: 40px;
+    gap: 40px;
+    border-radius: 24px;
+
+}
+
+.card-img {
+    height: 18.75rem;
+    object-fit: cover;
+    align-self: stretch;
+    border-radius: 12px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contents__heading {
+    color: #312E2C;
+    font-family: "Young Serif";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    align-self: stretch;
+}
+
+.contents__details {
+    color: #5F564D;
+    font-family: Outfit;
+    font: 16px;
+    font-weight: 400;
+}
+
+/* Preparation */
+
+.preparation {
+    background-color: #FFF7FB;
+    padding:  28px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: Outfit;
+}
+
+.preparation__heading {
+    color: #7A284E;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.preparation__items {
+    margin-left: 23px;
+    color: #5F564D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.preparation__item{
+    
+}
+
+.preparation__item::marker {
+    color: #7A284E;
+}
+
+.preparation__item-title {
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+/* Ingredients */
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Outfit;
+}
+
+.ingredients__heading {
+    color: #854632;
+    font-family: "Young Serif";
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.ingredients__items {
+    margin-left: 22px;
+    color: #5F564D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ingredients__item {
+    
+}
+
+.ingredients__item-content {
+    margin-left: 16px;
+}
+
+.ingredients__item::marker {
+    color: #854632;
+}
+
+/* Instructions */
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: Outfit;
+}
+
+.instructions__heading {
+    font-family: "Young Serif";
+    color: #854632;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.instructions__items{
+    margin-left: 22px;
+    color: #5F564D;
+    font-size: 16px;
+    font-weight: 400;
+    /* font-family: Outfit; */
+    line-height: 150%; 
+}
+
+.instructions__item {
+    font-family: Outfit;
+}
+
+.instructions__item::marker {
+    color: #854632;
+}
+
+.instructions__item-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 15px;
+}
